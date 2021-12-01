@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+th {
+  color: blue;
+  text-decoration: underline overline;
+}
+td {
+  color: grey;
+}
+#hi {
+  color: red;
+}
+
+div {
+  display: flex;
+}
