@@ -2,17 +2,27 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+table {
+  border-spacing: 0px 2px;
+}
+
 th {
-  color: blue;
-  text-decoration: underline overline;
+  color: black;
+  text-decoration: underline;
 }
+
 td {
-  color: grey;
+  padding: 5px;
 }
-#hi {
+
+.column1 {
   color: red;
 }
 
 div {
   display: flex;
+}
+#traits {
+  background-color: lightgray;
 }

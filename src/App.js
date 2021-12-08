@@ -231,13 +231,25 @@ export default function App() {
           <th>Fav movie</th>
           <th>Career</th>
         </tr>
+
         {Names.map((name) => (
-          <tr>
-            <td id="hi">{name.firstName}</td>
+          <tr id="traits">
+            <td class="column1" id="hi">
+              {name.firstName}
+            </td>
+            {/* // we can make the row their favorite color
+            // if you want to try that!
+            // we can use {name.favColor} */}
             <td id="hi">{name.lastName}</td>
-            <td id="hi">{name.borough}</td>
-            <td id="hi">{name.favColor}</td>
-            <td id="hi">{name.yearBorn}</td>
+            <td id="hi" style={{ color: "darkgreen" }}>
+              {name.borough}
+            </td>
+            <td id="hi" style={{ color: name.favColor }}>
+              {name.favColor}
+            </td>
+            <td id="hi" style={{ fontStyle: "italic" }}>
+              {name.yearBorn}
+            </td>
             <td id="hi">{name.Month}</td>
             <td id="hi">{name.country}</td>
             <td id="hi">{name.pet}</td>
